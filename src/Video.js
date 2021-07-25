@@ -42,6 +42,7 @@ function Video() {
                         <br/>
                         <Typography component="div" variant="h6" gutterBottom>
             <Box borderBottom={1} width="25%" fontWeight="fontWeightBold" m={1}> Download for iOS and Android </Box>
+            <Box borderBottom={1} m={1} width="25%"></Box>
         </Typography>
                     </div>
             </div>
