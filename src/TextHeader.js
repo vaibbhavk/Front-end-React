@@ -10,12 +10,12 @@ function TextHeader() {
 
         <div class="row">
         <Typography component="div" variant="h6" gutterBottom>
-            <Box fontWeight="fontWeightBold" m={1}> THE BEST CHOICE </Box>
+            <Box boxWidth="auto" fontWeight="fontWeightBold" m={1}> THE BEST CHOICE </Box>
         </Typography>
         </div>
         <div class="row">
         <Typography component="h2" variant="h2" gutterBottom>
-            <Box fontWeight="fontWeightBold" m={1}> Beats Studio Wireless </Box>
+            <Box boxWidth="auto" fontWeight="fontWeightBold" m={1}> Beats Studio Wireless </Box>
         </Typography>
         </div>
 

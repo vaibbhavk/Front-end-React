@@ -3,11 +3,10 @@ import home from './icons/home.svg';
 import logo from './icons/logo.svg';
 import search from './icons/search.svg';
 import { IconButton } from '@material-ui/core';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
-import Button from '@material-ui/core/Button';
+
 import './Styles.css';
 
-function Header() {
+function HeaderLeft() {
     return (
 <div class="container">
 <div class="row">
@@ -36,16 +35,6 @@ function Header() {
   <img src={search} alt="search"/>   
 </IconButton> 
   </div>
-  
-  <div class="col">
-      <ButtonGroup size="large" variant="text" color="inherit" aria-label="text primary button group">
-        <Button>About Us</Button>
-        <Button>Models</Button>
-        <Button>Reviews</Button>
-        <Button>Add to Cart</Button>
-      </ButtonGroup>
-
-    </div>
 
 
 
@@ -54,4 +43,4 @@ function Header() {
     )
 }
 
-export default Header
+export default HeaderLeft
